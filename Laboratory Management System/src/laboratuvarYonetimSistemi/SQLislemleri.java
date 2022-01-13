@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class SQLislemleri {
 	static String host = "jdbc:mysql://localhost:3306/sqlim";
 	static String root = "root";
-	static String hostpsw = "65655396129Ek.";
+	static String hostpsw = "";
 	static Scanner input = new Scanner(System.in);
 	public static int index; // Giris yapan kullanicinin listedeki indexi
 	String username;

@@ -14,7 +14,7 @@ public class Kullanici {
 
 	static String host = "jdbc:mysql://localhost:3306/sqlim";
 	static String root = "root";
-	static String hostpsw = "65655396129Ek.";
+	static String hostpsw = "";
 
 	private String isim;
 	private String soyisim;

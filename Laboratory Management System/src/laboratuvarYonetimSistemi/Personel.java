@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Personel extends Kullanici {
 	static String host = "jdbc:mysql://localhost:3306/sqlim";
 	static String root = "root";
-	static String hostpsw = "65655396129Ek.";
+	static String hostpsw = "";
 
 	private String kullaniciAdi;
 	private String sifre;
@@ -77,7 +77,7 @@ public class Personel extends Kullanici {
 	public static void laboratuvarlariGuncelle(ArrayList<Laboratuvar> laboratuvarList) {
 		String query = "select * from sqlim.labs";
 		try {
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sqlim", "root", "65655396129Ek.");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sqlim", "root", "");
 			PreparedStatement ps = con.prepareStatement(query);
 			ResultSet rs = ps.executeQuery(query);
 			laboratuvarList.clear();
