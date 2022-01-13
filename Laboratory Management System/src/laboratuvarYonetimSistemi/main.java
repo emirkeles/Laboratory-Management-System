@@ -70,7 +70,7 @@ public class main extends SQLislemleri {
 								Kullanici.kullaniciListele(kullaniciList.size());
 							}
 							case 0 -> {
-								break b;
+								break b; // 29.satirdaki b'ye break eder.
 							}
 							}
 						}
@@ -106,7 +106,7 @@ public class main extends SQLislemleri {
 								Kullanici.bakiyeGoruntule(kullaniciList);
 							}
 							case 0 -> {
-								break c;
+								break c; // 89.satirdaki c'ye break eder.
 							}
 							}
 						}
@@ -128,7 +128,7 @@ public class main extends SQLislemleri {
 				listeGuncelle(kullaniciList); // Kayit olan kullanicidan sonra guncelleme islemi
 			}
 			case 0 -> {
-				break a;
+				break a; // 17. satirdai a'ya break eder.
 			}
 			}
 		}
